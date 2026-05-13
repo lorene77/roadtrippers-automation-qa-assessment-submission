@@ -60,6 +60,8 @@ npx playwright install --with-deps
 npm test
 ```
 
+Latest local run: `3 passed`
+
 For debugging:
 
 ```bash
@@ -78,9 +80,11 @@ I also avoided cases like complex geography, membership-only behavior, and accou
 
 ## CI and bonus
 
-The CI strategy is in [ci-cd-strategy.md](/C:/Users/irina_25cz9jv/Documents/Codex/2026-05-13/we-need-to-reassess-the-assignment/part2-ci-strategy/ci-cd-strategy.md), and the runnable CircleCI config is in [.circleci/config.yml](/C:/Users/irina_25cz9jv/Documents/Codex/2026-05-13/we-need-to-reassess-the-assignment/.circleci/config.yml).
+The CI strategy is in `part2-ci-strategy/ci-cd-strategy.md`, and the runnable CircleCI config is in `.circleci/config.yml`.
 
-For the optional bonus, I included a short accessibility approach in [accessibility-notes.md](/C:/Users/irina_25cz9jv/Documents/Codex/2026-05-13/we-need-to-reassess-the-assignment/part3-bonus/accessibility-notes.md) instead of submitting a failing automated accessibility test against the live public site.
+For the optional bonus, I included a short accessibility approach in `part3-bonus/accessibility-notes.md` instead of submitting a failing automated accessibility test against the live public site.
+
+Execution screenshots are included in the `artifacts/` folder.
 
 ## Time spent
 
