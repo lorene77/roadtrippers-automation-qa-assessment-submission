@@ -1,0 +1,19 @@
+{
+  "name": "roadtrippers-automation-qa-assessment",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Roadtrippers trip planning automation assessment using Playwright and TypeScript.",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "lint": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.2",
+    "@types/node": "^24.10.0",
+    "@playwright/test": "^1.56.1",
+    "typescript": "^5.9.3"
+  }
+}
